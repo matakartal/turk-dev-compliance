@@ -1,0 +1,5 @@
+# Sorumluluk Reddi / Disclaimer
+
+**TR** — Bu proje hukuki danışmanlık değildir. İçerik, geliştiricilere yönelik bir ön kontrol ve farkındalık aracıdır; avukat görüşünün yerine geçmez. Mevzuat, Kurul kararları ve idari para cezası tutarları sık değişir. Her kural dosyasında kaynak ve "son doğrulama" tarihi yer alır; bu tarihin üzerinden zaman geçtiyse birincil kaynağa (kvkk.gov.tr, Resmî Gazete, mevzuat.gov.tr) bakın. Şablonlar taslaktır: kendi faaliyetinize göre uyarlamadan yayımlamayın (Kurul, başkasının metninin birebir kopyalanmasını kabul etmez). Projenin yazarları, içeriğin kullanımından doğan zararlardan sorumlu tutulamaz.
+
+**EN** — This project is not legal advice. It is a developer-facing pre-check and awareness aid and does not replace a lawyer. Turkish law, regulator decisions and fine amounts change frequently. Each rule file lists its sources and a "last verified" date; verify against primary sources when that date is old. Templates are drafts and must be adapted to your own processing activities. The authors accept no liability for any use of this content.
