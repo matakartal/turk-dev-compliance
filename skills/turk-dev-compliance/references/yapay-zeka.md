@@ -11,6 +11,8 @@ Kaynak: KVKK "Yapay Zekâ Alanında Kişisel Verilerin Korunmasına Dair Tavsiye
 - İlgili kişiyi gerekçe, yöntem ve olası sonuçlar hakkında aydınlat; gerekirse etkili onay mekanizması kur.
 - Aynı sonuç anonim veriyle mümkünse anonim yöntemi seç; özel nitelikli veride sıkı tedbir; sorumlu/işleyen statüsünü proje başında belirle.
 
+Kaynaklar: YZ Tavsiyeleri (Nisan 2025, No:76) ve **Üretken Yapay Zekâ ve Kişisel Verilerin Korunması Rehberi (Kasım 2025, No:113)** — künye PDF'ten okundu, içeriği bu skill'de ayrıca incelenmedi [K]; LLM entegrasyonu yapmadan önce rehberi oku. kvkk.gov.tr/SharedFolderServer/CMSFiles/MTY5MjNmNmIwZWY3YTE.pdf
+
 ## LLM API'si (OpenAI, Anthropic, Google vb.) kullanan uygulama için kontrol listesi
 1. **Kişisel veri gidiyor mu?** Prompt'a kullanıcı adı, e-posta, belge, sohbet, sağlık/biyometrik veri dahilse evet. Gitmiyorsa m.9 doğmaz — mümkünse önce maskele/anonimleştir.
 2. **Alıcı yurt dışında ise** olağan akış arızi değildir → standart sözleşme (genelde SS-2: sen sorumlu, sağlayıcı işleyen) + 5 iş günü bildirim, ya da veri gitmeyecek şekilde tasarım. Açık rızaya yaslanma (yurt-disi-aktarim.md).

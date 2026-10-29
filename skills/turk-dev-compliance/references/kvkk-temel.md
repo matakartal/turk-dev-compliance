@@ -33,5 +33,14 @@ Hukuka aykırı işlemeyi/erişimi önleme, muhafaza için uygun güvenlik düze
 - Standart sözleşme bildirimi: 90.308–1.806.177
 Tutarlar her yıl yeniden değerleme oranıyla değişir; kaynak kvkk.gov.tr/Icerik/8145. Kurul cezalarına idare mahkemesinde dava açılır.
 
+## Geliştiriciyi ilgilendiren yeni ilke kararları (2026)
+- **2026/921** (29.04.2026, RG 02.06.2026): mesai takibi için biyometrik veri (parmak izi, avuç içi) m.6 şartlarına dayanmaz; açık rıza olsa da ölçülülük sağlanmaz; şablona çevirmek biyometrik niteliği kaldırmaz [D]. kvkk.gov.tr/Icerik/8912
+- **2026/2035** (16.09.2026, RG 08.10.2026): kurumsal e-posta/iş iletişim denetimi — genel aydınlatma yetmez, açık rıza kural olarak dayanak olmaz, kademelilik ve erişim logu gerekir [D]. İzleme/DLP yazılımı yapanlar için. kvkk.gov.tr/Icerik/9044
+- **2026/266**: sadakat kartı/telefon numarasının üçüncü kişilerce kullanımı; uyum süresi 28.02.2027'ye uzatıldı (2026/1491) [K]. kvkk.gov.tr/Icerik/8899
+- Ceza itirazı: idare mahkemesi [K, 6698 değişikliği künyesi doğrulanmadı].
+
+## Veri güvenliği ceza örnekleri (m.12/1, karar özeti, D; tutarlar o yılın rakamıdır)
+2024/1385 pazarlama sitesi credential stuffing, 2FA yok → 3.250.000 TL · 2023/1796 CDN cache hatası ile müşteri verisi açıkta, dış hizmet sağlayıcıya devir sorumluluğu kaldırmaz → 200.000 TL · 2023/412 hosting/SaaS, kart verisi log'da maskesiz, 2FA yok → 350.000 TL · 2024/790 mobil uygulama DB'ye yetkisiz erişim, yetersiz log, ilgililere bildirim yok → 350.000 TL · 2024/133 phpMyAdmin'e IP kısıtı yok → 250.000 TL. 2025–2026'dan e-ticaret/mobil/SaaS ceza örneği bulunamadı [X].
+
 ## Ağırlıklı kurallar için sırayla
 `aydinlatma-riza.md` → `cerez.md` → `yurt-disi-aktarim.md` → `verbis-etbis-iys.md` → `guvenlik-ihlal.md`.

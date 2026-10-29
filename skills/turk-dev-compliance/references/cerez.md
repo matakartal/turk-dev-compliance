@@ -14,7 +14,13 @@ Kaynak: KVKK Çerez Uygulamaları Hakkında Rehber, KVKK Yayını No:69, Temmuz 
 - Rıza her zaman geri alınabilir (küçük ikon/şerit ile panele erişim); her ziyarette sorma (rıza yorgunluğu).
 - Rıza kullanım sözleşmesine/gizlilik bildirimine iliştirilemez; çerez duvarı rızayı geçersiz kılabilir.
 - Üçüncü taraf çerezlerde site sahibi de bilgilendirme ve rıza ile yükümlüdür.
-- Yurt dışı şirket çerezleriyle veri gidiyorsa m.9 + Yönetmelik uygunluğu gerekir (bkz. `yurt-disi-aktarim.md`).
+- Yurt dışı şirket çerezleriyle veri gidiyorsa m.9 + Yönetmelik uygunluğu gerekir (bkz. `yurt-disi-aktarim.md`). Rehber bölüm 7.4 (üçüncü taraf: site sahibi + üçüncü taraf birlikte yükümlü) ve bölüm 8 (yurt dışı çerez = m.9) [D].
+- Birinci taraf analitikte IP maskeleme veri minimizasyonu örneği olarak önerilir [K]. Rehberde "IP adresi kişisel veridir" veya Google Fonts/CDN'e dair ifade **yoktur** [X].
+
+## Kurul kararı örnekleri (karar özeti, D; tutarlar o yılın rakamıdır)
+- 2022/229 (e-ticaret, web+mobil): zorunlu olmayan/yurt dışı 3. taraf çerezler rızasız → 800.000 TL. "Yerel sağlayıcı yok" savunması reddedildi. kvkk.gov.tr/Icerik/7275
+- 2023/1645 (oyun dağıtıcısı): yurt dışı 3. taraf çerezleri "gerekli" saymak, "ziyaret = onay" metni → 750.000 TL. kvkk.gov.tr/Icerik/7765
+- 2024/1361 (eğitim kurumu sitesi): analitik çerezde opt-in yok → 250.000 TL + aydınlatma 15.000 TL. kvkk.gov.tr/Icerik/8884
 
 ## Geliştirici kuralları
 1. Zorunlu olmayan etiketleri (GA/GTM, Meta Pixel, Hotjar, reklam SDK'ları) **rıza verilene kadar yükleme/çalıştırma** (script'i hiç ekleme; yalnızca "anonim mod"a güvenme).

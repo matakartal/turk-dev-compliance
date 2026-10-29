@@ -1,0 +1,40 @@
+name: ci
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 6 1 * *" # aylık: güncellik ve link kontrolü
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 evals/run.py
+      - name: TypeScript snippet'leri
+        run: |
+          npm install --no-save typescript@5 @types/react@18 @types/node
+          npx tsc --strict --noEmit --jsx react-jsx --skipLibCheck --lib es2022,dom skills/turk-dev-compliance/snippets/*.ts skills/turk-dev-compliance/snippets/*.tsx || true
+
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Son doğrulama tarihi 6 aydan eski mi?
+        run: python3 scripts/check_freshness.py
+
+  links:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,206,403,429 "skills/**/*.md" "README.md" "research/**/*.md"
+          fail: false
